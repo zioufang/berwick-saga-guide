@@ -1,0 +1,29 @@
+# Map 7-1 — Ancient Treasure
+
+[← Home](../index.md)
+
+## Map
+
+![Map 7-1 — Ancient Treasure](images/ch07-side-1-ancient-treasure.png)
+
+## Notes on the Map
+
+The bad news is this is a desert map. The good news is this is the one of only two desert maps in *Berwick Saga*. The better news is that unlike Fire Emblem, while sand movement incurs some movement penalties (most notably stranding Derrick the Armor Knight), it isn't nearly as bad as the deserts in Fire Emblem. For the most part, your army will still have good enough movement to walk around as if this was flat ground.
+
+The real gimmick of this map is the sandstorm. Every few turns, the map alternates between a sandstorm to clear skies, repeating forever until the map is cleared. Whenever a sandstorm sets in, it imposes fog-of-war restrictions on the map. Overall, this isn't too big of a deal, and you'll find that the sandstorm blinding the enemies as well as us actually sometimes makes sandstorms a huge help for us. There's one massive exception to the sandstorm's vision constraints, and the nice NPC right beside us as the map starts will warn us about it as soon as you approach.
+
+There is a Flame Wyvern on this map, which lists itself as a Flamewyrm. This is the first tmie you will be fighting against a dragon-type enemy in *Berwick Saga (though* [*biologically speaking, dragons and wyverns and wyrms are all different things, right?*](https://www.christophercant.com/post/dragons-wyverns-drakes-wyrms)*)*. The Flamewyrm - and by extension all the wyvern enemies in this game - are ridiculous enemies. With flight properties and therefore cannot be targeted by 0-range weaponry, and a base defense of 35 on top of 46 HP, it is nigh impervious to physical damage outside of perhaps Dean's hyper-stacked Vengeful or critical hits. Its Flametongue deals massive elemental fire damage calculating against your resistance (magic) stat, so it will definitely hurt. Worst of all - this Flamewyrm starts active, and will fly at you without warning, making it especially deadly if a sandstorm is going.
+
+Fortunately, the Flamewyrm has a fatal weakness - we'll get to it more after talking about the map some more, since he won't be a problem until a bit later. For now, push your army toward the temple in the middle. You will see Nagra and his priests pinned down in the bottom-left, but rest assured, there is no time pressure on this map. Despite the apparent threat to them, Nagra and his priests will **never** be attacked by any enemy on this map. So we can actually take our time and slowly rout everyone first.
+
+The Temple is occupied by the boss of this map, Riddle. **Riddle is on the Bounty List**, so naturally we should try our best to take him in alive. He additionally has Obfuscate, preventing you from checking his stats - but once you dispel the Obfuscate with Watchful or being next to him, your eyes will be greed with a very funny inventory. *Thracia 776* has the infamous Penta-Axe General, this guy is the *Penta-Dagger Criminal*. Packed with five different daggers, he will try to swipe at you using them while you're fighting him. Notably, one of the five daggers he has is the Bolt Knife, of which the only other copy of it was in 5-1. This gives you an additional incentive to capture him so you can get a second taser to set up captures going forward.
+
+In general, Riddle prefers to use the Assassin's Knife among the daggers in his inventory since it is the highest damage he can output with it. Its critical power output is often enough for him to delete an unsuspecting thief or mage walking up to him to setup the injury, so exercise caution when landing the injury. In addition, watch out for the Flamewyrm - just left of Riddle is within the strike range of the big guy, and we can set up here to take it down.
+
+Between the three elemental types of Fire, Thunder, and Wind, all the wyrms boast heavy resistance to one elemental damage, mediocre defense against another, and vulnerability against a third. This Flamewyrm is almost impervious to fire, somewhat resistance to thunder, and completely garbage against Wind. Have Aegina activate Focus Chant using her Pallas Riana and watch this terrifying Flamewyrm vanish before your eyes. If you don't have the Pallas Riana handy, even a standard, low-power Wind Orb can do significant damage to this wyvern, killing it decently fast. It will drop the crafting material Wyvern Pearl on death.
+
+Riddle has some strange AI that seems to be tied to this Flamewyrm - once his AI is activated, and when the Flamewyrm dies, he seems to try to make a break for it by running left toward the escape point, and occasionally will even take a swing at one of our units if we're in his way. Don't get caught off guard - Riddle will not stay on the temple, so try to keep your squishier units away from him until the threat is taken care of. While fighting Riddle, keep an eye out for the Turn 6 reinforcement coming out of the temple - he is the only non-event based reinforcement that appears on this map, and killing him gets you 3000 Denarii.
+
+After the map is routed, feel free to "rescue" Nagra's men by speaking to him with any unit - this will trigger a new event where eight enemies appear on the map. While the forces in the bottom-left are not too big of a threat, the true prize lies in the top-right reinforcements. Two of the four bandits in the top-right carries bracelets, and they're both amazing ones that would serve us quite well. There's a Giant's Brace for a very good strength boost, but the other one happens to be the **Gambler's Brace**, and it is, in fact, the second of the only two Gambler's Braces in the game. **If you did not acquire a Gambler's Brace in 4-M, this is your last chance to capture this bandit to sell it to Erzheimer*****.*** If you did sell the brace already, feel free to take this one for yourself if you desire.
+
+Finally, seize the temple and the map is ours.

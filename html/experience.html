@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experience Points</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Experience Points</h1>
+<p><a href="index.html">← Home</a></p>
+<ul>
+<li>Experience point gains are limited between 0 and 100 points (inclusive).</li>
+<li>Experience points are <strong>not</strong> rewarded for damaging enemy units without defeating them.</li>
+</ul>
+<h2>Defeating / Capturing Units</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Property</th>
+<th>Calculation</th>
+</tr></thead><tbody>
+<tr>
+<td>Experience Gained</td>
+<td>enemy Class Experience + Experience modifier</td>
+</tr>
+</tbody></table></div>
+<h3>Class Experience</h3>
+<div class="table-wrap"><table>
+<thead><tr>
+<th style="text-align:center">Class Exp.</th>
+<th>Classes</th>
+</tr></thead><tbody>
+<tr>
+<td style="text-align:center">0</td>
+<td>Civilian, Princess, Structure, Horse</td>
+</tr>
+<tr>
+<td style="text-align:center">8</td>
+<td>Farmer</td>
+</tr>
+<tr>
+<td style="text-align:center">10</td>
+<td>Rogue, Thief, Engineer, Transporter</td>
+</tr>
+<tr>
+<td style="text-align:center">11</td>
+<td>Ruffian</td>
+</tr>
+<tr>
+<td style="text-align:center">12</td>
+<td>Brigand, Cleric, Corsair, Friar, Pirate, Rogue Archer, Rogue Gunner, Wind Mage</td>
+</tr>
+<tr>
+<td style="text-align:center">13</td>
+<td>Axeman, Imp. Axeman, Bowman, Imp. Bowman, Spearman, Imp. Spearman, Burglar</td>
+</tr>
+<tr>
+<td style="text-align:center">14</td>
+<td>Outlaw, Rogue Guard, Gunner, Imp. Gunner</td>
+</tr>
+<tr>
+<td style="text-align:center">15</td>
+<td>Horseman, Bow Knight, Grassrunner, Bow Rider, Imp. Bow Rider, Spear Rider, Imp. Spear Rider, Snow Bandit, Barbarian</td>
+</tr>
+<tr>
+<td style="text-align:center">16</td>
+<td>Acolyte, Alchemist, Bishop, Court Priest, Fencer, Flame Fencer, Mercenary, Myrmidon, Priestess, Raze Monk, War Monk, Raze War Monk, Heavy Gunner, Imp. Heavy Gunner</td>
+</tr>
+<tr>
+<td style="text-align:center">18</td>
+<td>Axefighter, Chevalière, Verian Knight, Imp. Knight, Lady Knight, Lord, Thunder Mage, Warrior, Rogue Warrior</td>
+</tr>
+<tr>
+<td style="text-align:center">20</td>
+<td>Axe Guard, Axe Soldier, Axe Sergeant, Marksman, Imp. Marksman, Pickpocket, Priest, Raze Priest, Swordfighter</td>
+</tr>
+<tr>
+<td style="text-align:center">22</td>
+<td>Arrow Knight, Guardian, Huntress, Lance Knight, Imp. Paladin, Spear Knight, Sword Knight</td>
+</tr>
+<tr>
+<td style="text-align:center">24</td>
+<td>Berserker, Failed Poet, Highlander, Hunter, Sniper, Swordmaster</td>
+</tr>
+<tr>
+<td style="text-align:center">25</td>
+<td>Veteran Knight</td>
+</tr>
+<tr>
+<td style="text-align:center">28</td>
+<td>Hero, Knight Lord, Paladin (Vanmilion, Alvina), Thunder Sage, Wind Sage</td>
+</tr>
+<tr>
+<td style="text-align:center">30</td>
+<td>Cavalier, Ballistician, Wyvern Knight, Ranger</td>
+</tr>
+<tr>
+<td style="text-align:center">32</td>
+<td>Paladin (Elbert?)</td>
+</tr>
+<tr>
+<td style="text-align:center">34</td>
+<td>Duke Knight</td>
+</tr>
+<tr>
+<td style="text-align:center">35</td>
+<td>Chief</td>
+</tr>
+<tr>
+<td style="text-align:center">36</td>
+<td>Armor Knight, Black Rider, Shining Knight</td>
+</tr>
+<tr>
+<td style="text-align:center">40</td>
+<td>High Hunter, High Knight, Wyvern Lord</td>
+</tr>
+<tr>
+<td style="text-align:center">45</td>
+<td>Aristocrat, Duke, General, King</td>
+</tr>
+<tr>
+<td style="text-align:center">50</td>
+<td>Captain, Chosen One, Gigas Knight, Scoundrel, Wyvern</td>
+</tr>
+<tr>
+<td style="text-align:center">80</td>
+<td>Apostle, Dark Master, Flamewyrm, Icewyrm, Levinwyrm</td>
+</tr>
+<tr>
+<td style="text-align:center">99</td>
+<td>Assassin, Raze Bishop</td>
+</tr>
+</tbody></table></div>
+<h3>Experience Modifier</h3>
+<p>Based on the difference between the enemy's level and the player unit's level.</p>
+<div class="table-wrap"><table>
+<thead><tr>
+<th style="text-align:center">Enemy Level − Player Level</th>
+<th style="text-align:center">Experience Modifier</th>
+</tr></thead><tbody>
+<tr>
+<td style="text-align:center">-8 or lower</td>
+<td style="text-align:center">-40</td>
+</tr>
+<tr>
+<td style="text-align:center">-7</td>
+<td style="text-align:center">-35</td>
+</tr>
+<tr>
+<td style="text-align:center">-6</td>
+<td style="text-align:center">-30</td>
+</tr>
+<tr>
+<td style="text-align:center">-5</td>
+<td style="text-align:center">-25</td>
+</tr>
+<tr>
+<td style="text-align:center">-4</td>
+<td style="text-align:center">-20</td>
+</tr>
+<tr>
+<td style="text-align:center">-3</td>
+<td style="text-align:center">-15</td>
+</tr>
+<tr>
+<td style="text-align:center">-2</td>
+<td style="text-align:center">-10</td>
+</tr>
+<tr>
+<td style="text-align:center">-1</td>
+<td style="text-align:center">-5</td>
+</tr>
+<tr>
+<td style="text-align:center">0</td>
+<td style="text-align:center">0</td>
+</tr>
+<tr>
+<td style="text-align:center">+1</td>
+<td style="text-align:center">+2</td>
+</tr>
+<tr>
+<td style="text-align:center">+2</td>
+<td style="text-align:center">+4</td>
+</tr>
+<tr>
+<td style="text-align:center">+3</td>
+<td style="text-align:center">+6</td>
+</tr>
+<tr>
+<td style="text-align:center">+4</td>
+<td style="text-align:center">+8</td>
+</tr>
+<tr>
+<td style="text-align:center">+5</td>
+<td style="text-align:center">+10</td>
+</tr>
+<tr>
+<td style="text-align:center">+6</td>
+<td style="text-align:center">+12</td>
+</tr>
+<tr>
+<td style="text-align:center">+7 or higher</td>
+<td style="text-align:center">+15</td>
+</tr>
+</tbody></table></div>
+<h2>Non-Attacking Orb Experience</h2>
+<p>Experience gained from using a non-attacking orb.</p>
+<div class="table-wrap"><table>
+<thead><tr>
+<th style="text-align:center">User's Level</th>
+<th>Experience</th>
+</tr></thead><tbody>
+<tr>
+<td style="text-align:center">1~4</td>
+<td>Orb Rank + random(6~9)</td>
+</tr>
+<tr>
+<td style="text-align:center">5~9</td>
+<td>Orb Rank + random(5~8)</td>
+</tr>
+<tr>
+<td style="text-align:center">10~14</td>
+<td>Orb Rank + random(4~7)</td>
+</tr>
+<tr>
+<td style="text-align:center">15~19</td>
+<td>Orb Rank + random(3~6)</td>
+</tr>
+<tr>
+<td style="text-align:center">20~24</td>
+<td>Orb Rank + random(2~5)</td>
+</tr>
+<tr>
+<td style="text-align:center">25~29</td>
+<td>Orb Rank + random(1~4)</td>
+</tr>
+<tr>
+<td style="text-align:center">30</td>
+<td>0 <em>(maximum level)</em></td>
+</tr>
+</tbody></table></div>
+</main>
+</body>
+</html>

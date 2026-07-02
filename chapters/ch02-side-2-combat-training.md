@@ -1,0 +1,35 @@
+# Map 2-2 — Combat Training
+
+[← Home](../index.md)
+
+## Map
+
+![Map 2-2 — Combat Training](images/ch02-side-2-combat-training.png)
+
+## Objective Checklist
+
+- "Escape" the map.
+- Have Axel lower the drawbridge so the army can reach the convoys.
+- Secure Derrick's availability (let Derrick flee bottom-right; he then appears in the guild to hire).
+- Secure at least the Repairstone from the top-right convoy (kill for the Repairstone, or capture for the Repairstone and all its Imperial Weapons).
+- Secure the Sinon Steel crafting material off the axe enemy.
+
+## New Characters
+
+- **Derrick**
+
+## Notes on the Map
+
+We start in the southern area of the map, with an initial guard force to our left, and the convoys that we're meant to be robbing in the north. A singular raised bridge stops us from going north immediately, and the drawbridge controls to lower this bridge is on the other side of the river. Axel alone can trek across the water and lower the bridge for us, creating the shortcut and bypassing the guard force. We are heavily incentivized to do this, because...
+
+Both convoys get moving very quickly. The western guard force is accompanied by a ballista - but notably, this ballista starts with no ammo. The northernmost convoy on top of the cliff is holding the ballista bolts, and will start moving to deliver the bolts when we get in range (most likely Turn 3). The other ballista is carrying a ton of Imperial Weapons, and a Repairstone that will drop on death. This convoy will get moving on Turn 5, escaping through the top-right corner - a place that is only 2 tiles away from where it starts. If we don't have Axel lower the bridge, it is physically impossible for us to get to the convoys by going the long way around!
+
+At the end of the same turn that the drawbridge is lowered, a wave of enemy reinforcements will spawn in from the left and the bottom, this marks the only wave of reinforcements that this map will ever receive. With the bridge down, we're given a neat little 1-hex chokepoint to hold off the enemies with, allowing the rest of our army to scramble for the convoys.
+
+Killing the topmost convoy will render the enemy ballista inert, as it can never fire without ammo. If you cannot kill the top-right convoy in time, you can also block the exit. Even foot units will be able to make it to the escape point by Turn 5 and block it off if you take the bridge over. The top-right convoy can either be killed for the Repairstone, or captured for the Repairstone and all of the weapons it is holding. The convoy has one of every Imperial Weapon, and is additionally standing on a Weapons Shop tile that will sell more of it. Generally, Imperial weapons are somewhat below-average quality weaponry, but the shop sells them for dirt cheap and the convoy just has a set for free, so whether or not you want to go through the trouble of taking those is up to you.
+
+Quick aside - the Repairstone on this convoy is quite valuable. Repairstones are the Hammerne staves of Berwick Saga, and there are only five of them in the entire game. This one is definitely the easiest one to get, so make sure to get it!
+
+Once the convoys are neutralized, turn your attention to routing the map. Some of the enemies in this map, including the boss, will drop money on death. One notable enemy will also drop the crafting material Sinon Steel. So make sure to get at least him for the material drop. This map features two enemy crossbows hiding in forest tiles with Overwatch active. Walking into their attack range will allow them to pop out and take a free shot at you. If this shot connects and deals at least 1 damage, your unit's action is forcefully ended, potentially putting you in a bad spot. Units with the "Watchful" skill, like Czene or Larentia (who joins you in Map 4-M) can detect these hidden units from 3 tiles away as opposed to the default 1 tile, and ranged units can damage these Overwatching enemies to dispel Overwatch. Alternatively, run into them with Arrowbane units like Kramer or Elbert to somewhat reliably avoid the hit and attack back. The two crossbows on this map are the first enemies you'll see with the Hide + Ovewatch combo, they are therefore not that threatening. But later enemies with this configuration can get very deadly!
+
+Finally, let's talk about Derrick. He will be commanded to attack us, but he isn't that interested in fighting and will instead opt to flee by going bottom-right. Simply let him do so. After clearing the map, Derrick will appear in the town mercenary guild, allowing us to hire him for ourselves and potentially recruit him later. We'll talk about Derrick in just a bit. But for now, simply rout the map - or fight as many enemies are you feel comfortable doing - and casually escape the map to clear it!

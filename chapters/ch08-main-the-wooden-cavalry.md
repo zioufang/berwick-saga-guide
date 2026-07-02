@@ -1,0 +1,70 @@
+# Map 8-M — The Wooden Cavalry
+
+[← Home](../index.md)
+
+## Map
+
+![Map 8-M — The Wooden Cavalry](images/ch08-main-the-wooden-cavalry.png)
+
+## Tactics Requirements
+
+- 1 Point: Defeat Von Beck.
+- 2 Points: At least 3 Ballisticians escape the map.
+- 3 Points: All 4 Ballisticians escape the map.
+
+## Required Deployments for Sidequests
+
+Reese, Ward, Daoud, *Sherpa**, *A Searcher***
+
+* Sherpa is not required for a sidequest, but a map event here will unlock his recruitment.
+
+** A searcher isn't required for a sidequest, but is required for a Bounty Target on this map.
+
+## Objective Checklist
+
+- Have everyone - NPCs, Ballisticians, and Player Units - escape by Turn 24.
+- Secured all 3 Tactics Points by defeating Von Beck and protecting all the Ballisticians
+- Secured Burroughs' recruitment - he will join you as a playable unit in the next chapter if he survives
+- Secured Sherpa's permanent recruitment by having him talk to Kay (Kay spawns in the right on Turn 10)
+- Searchable Items: 4,000 total Denarii, Thief's Knife (search the four green houses in Kanne)
+- New Bounty Target: Vasquez (search the fifth and rightmost house in Kanne. Do not kill him in the initial house battle to spawn him on the map for capturing purposes)
+- Completed Sidequest 1 by having Daoud chop down the tree in the north of Kanne
+- Completed Sidequest 2 by letting the priest Simas flee (have Ward visit the church, the priest will spawn 5 turns after the initial conversation and escape)
+- Completed Sidequest 3 by letting Martha and Meryl flee (have Reese speak to Martha to spawn Meryl, then have Reese speak to Meryl to have her start escaping)
+- Accepted Sidequest 4 by visiting the Material Shop (complete this quest after the map by going to the bow shop in Navaron)
+- Crafting Material: Wolf Pelt (bought from the Material Shop)
+- Crafting Material: Antelope Pelt (bought from the Material Shop)
+- New Item: Bag (bought from the Material Shop)
+- New Gallery Item: Divine Brace (kill the Raze Priest that spawns on the right of Kanne on Turn 18)
+
+## Notes on the Map
+
+Welcome to Kanne. We are allegedly here to protect it, but you may find that this map boils down to us ransacking Kanne for all it's worth before the Empire gets to do it, since the enemy pressure on this map is surprisingly light. That counts as protecting them, right?
+
+Enemies will be coming in from the left and right wings of Kanne, but trickle in at a very slow rate. Proactively play will result in you essentially spawn-camping enemies as they come in, which mostly defuses the threat. Correct assignments of team members across Kanne will still save you some time in the early game - put Daoud near the top so he can immediately run up and chop the tree down to get the first sidequest done. Put Sherpa and Ward toward the right for their respective side objectives. Reese should look to run left to complete his task, and your searcher should get ready to start searching all the houses in Kanne.
+
+Have Ward visit the church toward the bottom-right of Kanne. He will talk to the priest inside and convince him to leave. The priest is in no hurry to do so - **5 turns after Ward's conversation occurs, the Priest NPC will appear on the map and begin to retreat**. Therefore, have Ward get the convo down as fast as possible to get the wait time through with early on. This will complete your second sidequest.
+
+Next, have Reese go left to chase after the trail of fleeing NPCs. The woman in the rear of the single file is a named NPC called Martha. Speaking to Martha will cause her daughter, Meryl, to spawn in the bottom-left corner of the map. Meryl is lost and will wander around doing nothing until Reese speaks to her, as well. Meryl will start pathing to the escape tile after, have both Meryl and Martha survive the map to complete the third sidequest.
+
+Let's talk about the houses next - numerous houses in Kanne can be searched, and the shop can be visited with anyone. Visiting the Material Shop in Kanne unlocks your fourth sidequest - completing it is trivial, just go to the the bow shop in Navaron and you're done. The Material Shop itself sells the crafting materials Wolf Pelt, Antelope Pelt, and a new Bag! Make sure to buy out their stock as you want all of this. Aside from the shop, there are five houses in Kanne that can be searched, with some of them containing enemies. From left the right, the houses contain: 1000 Denarii, a Thief's Knife, 2000 Denarii, 1000 Denarii, and...  a guy?
+
+The rightmost house contains the enemy Vasquez. **Vasquez is on the Bounty List**. But you may be wondering - how do we take him in alive if he's in a house that triggers deathmatch? The answer is to survive it first and avoid killing him - after the house is searched, Vasquez will appear on the map when the unit moves off the house tile, and he can be captured or killed as normal.
+
+Therefore, visit the house with a thief holding a dagger and aim to do chip damage to avoid killing him. Once Vasquez pops out of the house, you can go for the cripple with anyone on the map on his remaining HP pool. If Czene does this, you can additionally have a chance to disarm him by proccing the Mug+ to take his Bronze Sword away. Vasquez isn't that powerful, so the extra step required to capture him shouldn't be too big of a deal.
+
+Those should be all the chores and sidequests taken care of, now let's turn our attention to actually playing the map. The escape of the NPCs are trivial - enemies will be far too preoccupied with us to bother any of them, which means our focus is making sure the ballisticians make it out. Unfortunately, not only are the ballisticians slow as sin to move around with their whopping **two** movement, they will also kindly help you out defend Kanne by choosing to shoot anything and everything that's red and moves. The squad leader, Burroughs, will not call for the retreat until Turn 3 - and even then, Burroughs in the rear won't start moving as late as potentially Turn 8 or 9. Don't panic if you see the ballisticians seemingly going AFK on you. Eventually, they will manage to get out by themselves assuming your defensive lines haven't collapsed.
+
+Protecting the ballisticians should be simple, and if all of them make it out - with Burroughs being among them, he will join you as a playable unit starting from Chapter 9!
+
+As previously stated, the enemy pressure on this map isn't too immense, there are a few notable spawns, starting with Chieftess Kay on Turn 10 - she appears on the right side of the map. Have Sherpa walk up and talk to her, this will trigger a map event that takes both of them off the map. This interaction requires the prerequisite town events from previous chapters involving Sherpa to be viewed, but if you've been diligent about seeing everything, you should have the requirements to do so. Talking to Kay will also make Sherpa permanently recruitable - he is one of the easiest mercenaries to recruit, since he requires only 1+ Happiness. If you have deployed Sherpa even once since his debut in 3-1, this Happiness condition will be met. (bare minimum +0.5 Happiness to hire, and another +0.5 if deployed on any side map / +1.0 on a main map)
+
+Starting on Turn 14, a few units will start appearing in the bottom-left corner where Meryl was. By this point, the civilians should all be gone, and the ballisticians are about halfway to the exit. The purpose of this group isn't so much to kill the NPCs, but rather to harass you on your way out of Kanne. Fortunately, not only is the bottom-left trickle slow and few in numbers, but there is also a neat 1-hex chokepoint beside the cliff that you can occupy to block them off. Spare a unit here and don't get baited to pull your army out of Kanne too early, because...
+
+On Turn 18, two major enemies arrive in the left and right wings of Kanne. Let's start with the right - a Raze Priest shows up carrying a Divine Brace that will be dropped on death. **Divine Brace is an item for Erzheimer's Item Collection**. There are only two Divine Braces in this game, and this is the only one that you're allowed to acquire (the other one is equipped by a boss that has Robust to prevent you from capturing or stealing it off him). If you miss this Divine Brace, then Erzheimer's Gallery cannot be completed. This Raze Priest is actually fairly squishy. Even infantry units can kill him and still make it to the escape point on time by walking down the cliff after. As long as you are camping this entrance and killing him as fast as you can, all should be well.
+
+Meanwhile, the left side will see the spawn of the boss, Von Beck. If you have been playing "perfectly" so far, you should be at the 18 Tactics Rank threshold after Chapter 7 to promote Reese. Any further tactics ranks from here on are purely for bragging rights - but we might as well go for the perfect 35 - and if you want to go for it, then Von Beck must be defeated. Von Beck is quite a bit tankier than the Raze Priest and will require some more effort to take down, but nothing too insurmountable for the caliber of your army at this stage.
+
+Be warned - Von Beck has very passive AI: If he sees no units in his range, then he is content to just wander around his spawn point instead of marching forward with the army. With 6 turns left to escape, it is in your best interest to bait Von Beck out a bit before fighting him, but if he wastes a turn by dawdling around, then your escape gets even more dire. Therefore, intentionally put a unit in his attack range so that he will come out to fight you, kill him, and then start evacuating Kanne.
+
+Turn 18 is also the last wave of enemy reinforcements. There will be nothing left to do after all this, so it's time to take your army and take them out of the village. Depending on how aggressively you played, your escape may be by a narrow thread while hounded by enemies, or a calm stroll out of a completed routed map - but regardless, I consider this to be one of the easiest main story maps, so it shouldn't give you too much trouble aside from the Turn 18 rush to get both side objectives.

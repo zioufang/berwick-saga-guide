@@ -1,0 +1,41 @@
+# Map 3-2 — Ponies and Thieves
+
+[← Home](../index.md)
+
+## Map
+
+![Map 3-2 — Ponies and Thieves](images/ch03-side-2-ponies-and-thieves.png)
+
+## Objective Checklist
+
+- Either escape the map, or seize the enemy fort.
+
+## Notes on the Map
+
+I will say it out loud, italicized, and in all-caps: *DEPLOY CZENE FOR THIS MAP AND CLEAR BY SEIZING*.
+
+There, with that disclaimer out of the way, let's begin.
+
+This map is marred by an exceptionally low deployment count - the lowest in the game, in fact. With just 5 allowed units, and Czene practically forced to be one of them, you'll need to bring some fast units as well as some capture setup units if you want to loot the map for all it's worth.
+
+We are locked in a race against the bandit Seamus and his goons to secure the wild horses on this map. While initially it looks like there are four horses for grabs, one of the wild foals will be taken as a part of the starting cutscene and be brought to Seamus, leaving just three of them up for grabs. Some of these horses start very far away from us, and it is typically unrealistic to hope to get all three. Try your best to secure the one closest to you, or possibly even getting a second one with fast enough play. If an enemy has taken a horse, simply kill the unit and the horse will drop on the field again, allowing another unit to pick it up.
+
+The true prize on this map is actually Seamus. He's on the bounty list, and capturing him yields double rewards. Seamus initially sits on his fort doing nothing, but on Turn 10, he will without warning activate his AI after a line of dialogue and... Immediately flee the map. The escape point for the bandits is adjacent to where Seamus is sitting, and if you take too long, he can disappear off the map in the blink of an eye. If you don't want to lose the bounty, treat the wild horses as a secondary objective, and send a small squad specifically to take down Seamus. If you can't get the cripple down by Turn 10, the northern escape point can be blocked, which forces Seamus to go south instead - attacking you if you get in his way.
+
+Seamus' fort will receive periodic reinforcements in waves. The notable reinforcement here is one of the bandits on Turn 8. That bandit is carrying a Crooked Axe and will drop it on death. The Crooked Axe is one of the 18 items that Erzheimer is looking for to fill his gallery. There are actually three Crooked Axes on this map, but the bandit on Turn 8 is the one that drops it. If you capture any additional ones, you can keep them for yourself. Crooked Axes are the *Berwick Saga* equivalent of Devil Axes, but with a crazy high Mt and a set 1/8 chance to backfire, independent to the user's stats. If you aren't ironmanning, having a Crooked Axe is actually quite useful if you're willing to suffer the surprisingly high backfire rate, just because its raw offensive output is so high. It's up to you if you want to take the extra effort to perhaps take an extra Crooked Axe for yourself.
+
+In general, your small deployed force must scramble over the map to intercept the horse thieves and take down Seamus in time. When everything is said and done, have Czene seize the fort - do **not** clear the map by escaping, especially if you've brought Czene along. This map has some unique cutscenes that only play if Czene is deployed, and Czene herself even has special dialogue at the start. Completing this map by seizing the fort instead of escaping will allow Czene to discover the foal that was taken during the opening sequence of the chapter, and leads into a story sequence that will eventually lead to her promotion in as early as Chapter 6.
+
+Not bringing Czene - or deciding to escape the map instead of seizing Seamus' fort - will lock Czene out of her promotion, essentially dooming her viability as a long-term unit. Plus, I personally found the entire storyline with Czene and this horse very wholesome and emotional, and you don't want to miss out on that, do you?
+
+With that, here's a quick checklist on everything we've gone over today:
+
+**Objectives Checklist (3-1 and 3-2)**
+
+* Secured the Liquid Vitality in 3-1 (in the bottom-left bag)
+* Secured as many wild horses as you can in 3-2
+* Secured the Crooked Axe for Erzheimer's Collection in 3-2
+* Dealt with the Bounty Target Seamus in 3-2
+* Clear 3-2 with Czene and by seizing the fort instead of escaping to unlock Czene's promotion
+
+A nice and simple checklist for two relatively chill maps. Next time, we'll dive back into the terrifying main story maps of the next chapter. See you soon!

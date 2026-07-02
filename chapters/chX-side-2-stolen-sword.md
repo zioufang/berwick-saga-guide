@@ -1,0 +1,44 @@
+# Map X-2 — Stolen Sword
+
+[← Home](../index.md)
+
+## Map
+
+![Map X-2 — Stolen Sword](images/chX-side-2-stolen-sword.png)
+
+## Objective Checklist
+
+- Rout, or seize the Temple after securing Balmung.
+
+## Notes on the Map
+
+If you thought X-1 was a high-speed chase, the X-2 will take it even further. Four thieves will emerge from the temple on Turn 1, each of them carrying a dagger for self-defense and an item that drops on death. Your target is the bottom-left thief, Shagaal, who is the lucky guy that stole the Balmung. Killing him to get Balmung back is critical - after all, it's the entire reason we came here.
+
+The other three thieves can also be killed for some noteworthy loot - Treasure, Mend, and an Escapestone, all of them are quite valuable but not the end of the world if they slip through your fingers. Catching the thieves is an exercise in frustration, though. The map is covered in forests that hamper your speed of traversal, but lets the thieves have nearly unobstructed movement. All of the thieves also have Hide, making it difficult to actually fight them along their entire escape route. Units with Watchful to dispel the Hide, units that can punch through the thieves' pitiful defense to quickly kill them, and units that can keep up to pace with them are vital to deploy. Larentia shines on this map due to being the only unit that ticks all three boxes. The thieves may be fast and evasive, but they're all very squishy, a single clean hit is often enough to kill.
+
+Once Balmung is secured off Shagaal, the temple can be seized to end the map very quickly - but why would you want to leave? Feast your eyes on the rest of the map and the bounties they provide. The axe bandit carries a **Dark Axe**, the swordfighter in the clearing carries an **Albatross**, the Raze Priest at the far end of the thieves' escape point carries **Swarm, Sleep,** and a **Dark Mace**. **All five of these bolded items are items for Erzheimer's Gallery**. While I'm not necessarily advocating for you to get all of them here, since there are more opportunities later for *most* of them, we are absolutely here for at least one thing - the Albatross.
+
+There are only two Albatrosses in the entire game, one here, and one in the very last map of the game. Erzheimer's collection deadline is at the end of Chapter 13, meaning the second Albatross is a no-go for selling. This is your **one and only chance to get the Albatross** for Erzheimer. If you lose it here, then the gallery can never be completed. There are a few small issues with this - firstly, the Albatross is not dropped on death, you must capture this bandit or steal it off him. That's no big deal by this point, but what *really* complicates matters is the second problem...
+
+The Albatross is quite possibly the worst weapon I've ever seen in my entire life. It sports a very high base Mt and a massive 33% increased critical chance, but it also has a **fifty percent backfire rate**. Because of how much damage this thing can do, the bandit carrying the Albatross - though he doesn't initially equip it - will more than gladly run up to you, swap to the Albatross, swing it into you, and is coinflipping on whether or not he'll proc the devil sword's curse and delete himself off the map and deny you the opportunity to get this sword.
+
+Bait him in to steal the Albatross off him with Thaddy before he can swap to equipping it, or simply capture him while doing your best to avoid taking retaliation damage - because half the time, that damage isn't going to you, which is quite inconvenient when we're trying to keep *him* alive until we can take him in. As for the rest of the gallery items - take whatever you can. Between trying to secure the Albatross to dealing with the fleeing thieves your attention with only 6 deployments can only be split so many ways at the end of the day.
+
+Be careful if you want to go for the Raze Priest, his Sleep + Swarm combo is nasty if you are greeding for the capture. It's far from impossible, and taking him in gets up to 3 items checked off Erzheimer's list, which is a tantalizing offer, but forest movements and the high damage from Swarm on sleeping units does make him quite dangerous. There is no time limit to get him, though, so you can approach him cautiously. The crossbowman next to him is also holding the quadruple-attacking Chu-Ko-Nu with Killer Arrows, adding another layer of threat if you get caught sleeping in a bad place.
+
+Once the map is routed, you will have won. After the map clears, you are given a dialogue choice on if you want to give the Balmung to Kramer - **say yes**. Saying no will cause Kramer to not permanently join you, which is hilariously cruel to do all this for Kramer's recruitment, only to refuse at the finish line. If the Balmung is given to Kramer, Kramer will permanently join us, gain the ability to use blades in addition to swords, and have Balmung as his Prf - a very powerful weapon that will no doubt elevate his combat power significantly.
+
+**Objectives Checklist (X-1 and X-2)**
+
+* Lootable Item: Health Charm (kill the furthest Sea Mouse looter in X-1)
+* Crafting Material: Gold Dust (kill the second furthest Sea Mouse looter in X-1)
+* Possible Gallery Item: Triple-Fire Bow (capture the archer in the top gangplank in X-1)
+* New Bounty Target: Weiss (boss of X-1, a guaranteed capture for doubled rewards)
+* Lootable Items: Balmung, Mend, Escapestone, Treasure (kill Shagaal, Uriad, Morax, and Verda respectively in X-2)
+* Possible Gallery Item: Dark Axe (capture the axe bandit in X-2)
+* Possible Gallery Item: Swarm (capture the Raze Priest in X-2)
+* Possible Gallery Item: Sleep (capture the Raze Priest in X-2)
+* Possible Gallery Item: Dark Mace (capture the Raze Priest in X-2)
+* New Gallery Item: Albatross (capture the swordfighter in the clearing in X-2 - this is the **only** Albatross you can acquire for the gallery)
+
+What a nice haul! We have two more recruitment paralogues to go through, Ruby and Faye are next on our list. See you soon!

@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Food</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Food</h1>
+<p><a href="index.html">← Home</a></p>
+<p>Feeding a character food they <strong>Like</strong> gives a stronger bonus than food they're <strong>Neutral</strong> on. Characters not listed for a dish under either table dislike it.</p>
+<h2>Likes</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Food</th>
+<th style="text-align:center">Rank</th>
+<th style="text-align:center">Price</th>
+<th>Effect(s)</th>
+<th>Characters</th>
+</tr></thead><tbody>
+<tr>
+<td>Shrimp Bisque</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">770</td>
+<td>Avo +12</td>
+<td>Reese, Leon, Christine, Izerna, Sylvis, Faye, Derrick, Clifford, Faramir, Esteban, Aegina, Saphira, Thaddy, Enid, Perceval, Alvina</td>
+</tr>
+<tr>
+<td>Shell-Fried Crab</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">820</td>
+<td>Hit +20</td>
+<td>Ward, Adel, Elbert, Dean, Volo, Axel, Kramer, Sherpa, Owen, Daoud, Larentia, Marcel, Perceval, Burroughs, Paramythis</td>
+</tr>
+<tr>
+<td>Sautéed Veal</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">1000</td>
+<td>Str +2, Def +3, HP +5</td>
+<td>Leon, Sherlock, Elbert, Axel, Sylvis, Derrick, Faramir, Esteban, Daoud, Enid, Alvina</td>
+</tr>
+<tr>
+<td>Beef Bourguignon</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">760</td>
+<td>HP +10, HP recovered by magic +30%, recovers 1-5 HP per turn</td>
+<td>Reese, Sherlock, Christine, Dean, Ruby, Czene, Faye, Larentia, Thaddy, Burroughs, Paramythis</td>
+</tr>
+<tr>
+<td>Raquel Omelette</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">800</td>
+<td>All weapon skills +12</td>
+<td>Reese, Adel, Sherlock, Volo, Ruby, Arthur, Czene, Kramer, Faye, Clifford, Esteban, Aegina, Sherpa, Marcel, Alvina</td>
+</tr>
+<tr>
+<td>Roast Beef</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">850</td>
+<td>Str +3, HP +5, adds Counter skill</td>
+<td>Ward, Adel, Sherlock, Volo, Axel, Arthur, Kramer, Clifford, Sherpa, Marcel</td>
+</tr>
+<tr>
+<td>Orange Rabbit</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">520</td>
+<td>HP +2, Avo +5, Def +1</td>
+<td>Leon, Christine, Sylvis, Arthur, Czene, Thaddy, Alvina</td>
+</tr>
+<tr>
+<td>Marinated Shrimp</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">520</td>
+<td>Avo +5, Mag +3</td>
+<td>Reese, Leon, Christine, Clifford, Faramir, Esteban, Owen, Perceval, Burroughs, Paramythis</td>
+</tr>
+<tr>
+<td>Butter Scallops</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">650</td>
+<td>Hit +7, Crit +5</td>
+<td>Reese, Sylvis, Ruby</td>
+</tr>
+<tr>
+<td>Roast Duck</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">690</td>
+<td>HP +1, Crit +5</td>
+<td>Ward, Adel, Dean, Volo, Kramer, Clifford, Faramir, Esteban, Sherpa, Enid</td>
+</tr>
+<tr>
+<td>Lamb Terrine</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">600</td>
+<td>HP +3, Cripple rate x2</td>
+<td>Ward, Derrick, Esteban, Marcel, Alvina</td>
+</tr>
+<tr>
+<td>Butter-Baked Cod</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">590</td>
+<td>Hit +10, adds Adept skill</td>
+<td>Kramer, Owen</td>
+</tr>
+<tr>
+<td>Stuffat Tal-Fenek</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">580</td>
+<td>HP +2, Agility +3, adds Vantage skill</td>
+<td>Leon, Sylvis, Ruby, Czene, Larentia, Thaddy, Enid</td>
+</tr>
+<tr>
+<td>Scallop Meunière</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">550</td>
+<td>HP +3, Hit +8</td>
+<td>Reese, Sherlock, Sylvis, Ruby, Marcel</td>
+</tr>
+<tr>
+<td>Vichyssoise</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">430</td>
+<td>Crit Dodge +7</td>
+<td>Clifford, Perceval</td>
+</tr>
+<tr>
+<td>Seafood Salad</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">500</td>
+<td>Avo +3, adds Magicbane skill</td>
+<td>Sylvis, Faramir, Esteban, Saphira, Perceval, Burroughs</td>
+</tr>
+<tr>
+<td>Steamed Clams</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">470</td>
+<td>Hit +5, Crit +2</td>
+<td>Faramir, Enid, Perceval, Alvina</td>
+</tr>
+<tr>
+<td>Chicken Stew</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">450</td>
+<td>HP +1, Exp gain +50%</td>
+<td>Reese, Christine, Izerna, Sylvis, Ruby, Czene, Faye, Saphira, Larentia, Thaddy, Paramythis</td>
+</tr>
+<tr>
+<td>Butter Salmon</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">390</td>
+<td>Avo +5, Crit +3</td>
+<td>Dean, Faramir, Thaddy</td>
+</tr>
+<tr>
+<td>Salmon Meunière</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">420</td>
+<td>HP +5, Hit +6</td>
+<td>Reese, Christine, Dean, Sylvis, Ruby, Faramir, Marcel</td>
+</tr>
+<tr>
+<td>Pot-au-feu</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">460</td>
+<td>HP +5, Healing spells +20%</td>
+<td>Dean, Izerna, Aegina, Saphira, Thaddy, Alvina</td>
+</tr>
+<tr>
+<td>Sinon Omelette</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">480</td>
+<td>HP +5, Sword/Axe/Spear/Shield skills +10</td>
+<td>Leon, Sherlock, Christine, Sylvis, Clifford, Aegina, Saphira, Daoud, Thaddy, Perceval</td>
+</tr>
+<tr>
+<td>Roast Flounder</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">490</td>
+<td>Hit +5, Injury rate +10</td>
+<td>Leon, Izerna, Faye, Derrick, Clifford, Aegina, Saphira, Owen, Enid</td>
+</tr>
+<tr>
+<td>Sautéed Chicken</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">350</td>
+<td>HP +2, Mag +2</td>
+<td>Reese, Dean, Arthur, Faramir, Paramythis</td>
+</tr>
+<tr>
+<td>Narvia Salad</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">360</td>
+<td>Reduces damage taken by mount by 50%</td>
+<td>Reese, Sherlock, Izerna, Ruby, Saphira, Alvina</td>
+</tr>
+<tr>
+<td>Bouillabaisse</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">450</td>
+<td>Avo +8, adds Arrowbane skill</td>
+<td>Ward, Volo, Kramer, Faye, Burroughs</td>
+</tr>
+<tr>
+<td>Boiled Crab</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">360</td>
+<td>Hit +5, sleep recovery rate +50%</td>
+<td>Adel, Elbert, Volo, Axel, Kramer, Sherpa, Daoud, Larentia, Perceval</td>
+</tr>
+<tr>
+<td>Meatloaf</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">500</td>
+<td>HP +5, enemy Cripple rate -50%</td>
+<td>Reese, Ward, Derrick, Clifford, Esteban, Marcel, Alvina</td>
+</tr>
+<tr>
+<td>Minestrone</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">390</td>
+<td>HP +4, Luck +1</td>
+<td>Christine, Izerna, Ruby, Kramer, Clifford, Faramir, Aegina, Owen, Marcel</td>
+</tr>
+<tr>
+<td>Wild Game Salad</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">500</td>
+<td>Mag +3</td>
+<td>Ward, Adel, Sherlock, Elbert, Dean, Volo, Arthur, Czene, Kramer, Faye, Derrick, Sherpa, Daoud, Marcel, Paramythis</td>
+</tr>
+<tr>
+<td>Roast Chicken</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">380</td>
+<td>HP +2, Crit +3</td>
+<td>Ward, Adel, Elbert, Volo, Axel, Arthur, Kramer, Faramir, Sherpa, Daoud</td>
+</tr>
+<tr>
+<td>Braised Chicken</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">480</td>
+<td>HP +1, Str +1, Def +1</td>
+<td>Dean, Ruby, Arthur, Czene, Faye, Larentia, Enid</td>
+</tr>
+<tr>
+<td>Chicken Fricassée</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">400</td>
+<td>HP +8, HP recovered by magic +30%</td>
+<td>Dean, Arthur, Burroughs</td>
+</tr>
+<tr>
+<td>Fried Mackerel</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">270</td>
+<td>Hit +3, Avo +3</td>
+<td>Esteban, Owen, Burroughs</td>
+</tr>
+<tr>
+<td>Papillote 'Shrooms</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">180</td>
+<td>Mag +1, healing spells +10%</td>
+<td>Faye, Derrick, Larentia, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Sinon Salad</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">210</td>
+<td>Heals horse for 30 HP</td>
+<td>Christine, Saphira, Burroughs</td>
+</tr>
+<tr>
+<td>Beef Ribs</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">180</td>
+<td>HP +5, sleep recovery rate +50%</td>
+<td>Elbert, Axel, Sherpa</td>
+</tr>
+<tr>
+<td>Fried Rice</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">250</td>
+<td>HP +3, all magic weapon skills +10</td>
+<td>Izerna, Faye, Owen, Paramythis</td>
+</tr>
+<tr>
+<td>Strawberries</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">160</td>
+<td>Crit Dodge +3, (for women, +1 Luck)</td>
+<td>Izerna, Sylvis, Czene, Aegina, Saphira, Larentia, Thaddy, Enid, Perceval</td>
+</tr>
+<tr>
+<td>Sautéed Pork</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">290</td>
+<td>HP +5, sleep, berserk, and poison recovery rate +20%</td>
+<td>Adel, Volo, Axel, Sherpa, Daoud</td>
+</tr>
+<tr>
+<td>Roast Chevon</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">220</td>
+<td>HP +4, immune to injuries</td>
+<td>Leon, Faye, Derrick, Faramir, Aegina, Daoud</td>
+</tr>
+<tr>
+<td>Squid Fritters</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">120</td>
+<td>HP +3, Avo +3</td>
+<td>Sherlock</td>
+</tr>
+<tr>
+<td>Pumpkin Salad</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">100</td>
+<td>Heals horse for 20 HP</td>
+<td>Dean, Ruby, Owen</td>
+</tr>
+<tr>
+<td>Boiled Egg</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">50</td>
+<td>All weapon skills +3</td>
+<td>Dean, Daoud, Burroughs</td>
+</tr>
+<tr>
+<td>Red Pepper</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">50</td>
+<td>Sleep and berserk recovery rate +50%</td>
+<td>Elbert, Axel</td>
+</tr>
+<tr>
+<td>Deviled Egg</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">80</td>
+<td>HP +1, Bow/Crossbow skills +5</td>
+<td>Elbert, Axel</td>
+</tr>
+<tr>
+<td>Mutton Couscous</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">150</td>
+<td>HP +5, HP recovered by magic +20%</td>
+<td>Volo, Faramir, Aegina</td>
+</tr>
+</tbody></table></div>
+<h2>Neutral</h2>
+<div class="table-wrap"><table>
+<thead><tr>
+<th>Food</th>
+<th style="text-align:center">Rank</th>
+<th style="text-align:center">Price</th>
+<th>Effect(s)</th>
+<th>Characters</th>
+</tr></thead><tbody>
+<tr>
+<td>Shrimp Bisque</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">770</td>
+<td>Avo +9</td>
+<td>Ward, Adel, Sherlock, Dean, Volo, Axel, Ruby, Arthur, Sherpa, Owen, Marcel, Burroughs, Paramythis</td>
+</tr>
+<tr>
+<td>Shell-Fried Crab</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">820</td>
+<td>Hit +15</td>
+<td>Christine, Izerna, Sylvis, Arthur, Czene, Derrick, Clifford, Faramir, Esteban, Aegina, Saphira, Thaddy, Enid, Alvina</td>
+</tr>
+<tr>
+<td>Sautéed Veal</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">1000</td>
+<td>Str +1, Def +2, HP +5</td>
+<td>Reese, Ward, Adel, Christine, Dean, Volo, Arthur, Czene, Kramer, Faye, Clifford, Aegina, Sherpa, Larentia, Thaddy, Marcel, Perceval, Paramythis</td>
+</tr>
+<tr>
+<td>Beef Bourguignon</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">760</td>
+<td>HP +10, HP recovered by magic +30%</td>
+<td>Ward, Leon, Elbert, Izerna, Volo, Axel, Sylvis, Arthur, Kramer, Derrick, Clifford, Esteban, Aegina, Sherpa, Saphira, Owen, Daoud, Marcel, Enid, Perceval, Alvina</td>
+</tr>
+<tr>
+<td>Raquel Omelette</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">800</td>
+<td>All weapon skills +6</td>
+<td>Ward, Leon, Elbert, Christine, Dean, Izerna, Axel, Sylvis, Faramir, Saphira, Daoud, Larentia, Thaddy, Enid, Perceval, Burroughs, Paramythis</td>
+</tr>
+<tr>
+<td>Roast Beef</td>
+<td style="text-align:center">A</td>
+<td style="text-align:center">850</td>
+<td>Str +3, HP +5</td>
+<td>Reese, Leon, Elbert, Christine, Dean, Izerna, Sylvis, Czene, Faye, Derrick, Faramir, Esteban, Aegina, Saphira, Owen, Daoud, Larentia, Thaddy, Enid, Perceval, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Orange Rabbit</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">520</td>
+<td>HP +2, Avo +3</td>
+<td>Adel, Sherlock, Elbert, Dean, Volo, Axel, Ruby, Faye, Derrick, Clifford, Faramir, Esteban, Aegina, Sherpa, Saphira, Owen, Daoud, Larentia, Marcel, Enid, Perceval, Burroughs</td>
+</tr>
+<tr>
+<td>Marinated Shrimp</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">520</td>
+<td>Avo +4, Mag +2</td>
+<td>Adel, Sherlock, Izerna, Volo, Axel, Ruby, Arthur, Faye, Derrick, Aegina, Sherpa, Saphira, Marcel, Enid, Alvina</td>
+</tr>
+<tr>
+<td>Butter Scallops</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">650</td>
+<td>Hit +7, Crit +2</td>
+<td>Ward, Leon, Adel, Sherlock, Elbert, Christine, Dean, Izerna, Volo, Axel, Arthur, Czene, Kramer, Faye, Derrick, Clifford, Faramir, Esteban, Aegina, Saphira, Owen, Larentia, Thaddy, Marcel, Enid, Perceval, Burroughs, Alvina</td>
+</tr>
+<tr>
+<td>Roast Duck</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">690</td>
+<td>HP +1, Crit +3</td>
+<td>Reese, Leon, Elbert, Christine, Izerna, Axel, Sylvis, Arthur, Czene, Faye, Derrick, Saphira, Daoud, Thaddy, Marcel, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Lamb Terrine</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">600</td>
+<td>HP +3, Cripple rate x1.5</td>
+<td>Reese, Leon, Adel, Sherlock, Elbert, Dean, Volo, Axel, Ruby, Czene, Kramer, Clifford, Faramir, Sherpa, Daoud, Larentia, Enid, Perceval, Paramythis</td>
+</tr>
+<tr>
+<td>Butter-Baked Cod</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">590</td>
+<td>Hit +10</td>
+<td>Reese, Ward, Leon, Adel, Sherlock, Elbert, Christine, Dean, Izerna, Volo, Axel, Sylvis, Ruby, Arthur, Czene, Faye, Derrick, Clifford, Faramir, Esteban, Aegina, Sherpa, Saphira, Daoud, Larentia, Thaddy, Marcel, Enid, Perceval, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Stuffat Tal-Fenek</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">580</td>
+<td>HP +2, Agility +2</td>
+<td>Ward, Adel, Sherlock, Elbert, Christine, Dean, Volo, Axel, Arthur, Faye, Derrick, Faramir, Esteban, Aegina, Sherpa, Saphira, Owen, Perceval, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Scallop Meunière</td>
+<td style="text-align:center">B</td>
+<td style="text-align:center">550</td>
+<td>HP +3, Hit +5</td>
+<td>Ward, Leon, Adel, Elbert, Christine, Dean, Izerna, Volo, Axel, Arthur, Czene, Kramer, Faye, Derrick, Clifford, Faramir, Esteban, Aegina, Saphira, Owen, Larentia, Thaddy, Enid, Perceval, Burroughs, Alvina</td>
+</tr>
+<tr>
+<td>Vichyssoise</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">430</td>
+<td>Crit Dodge +3</td>
+<td>Reese, Ward, Leon, Sherlock, Christine, Izerna, Volo, Sylvis, Ruby, Arthur, Czene, Faye, Derrick, Esteban, Aegina, Sherpa, Saphira, Owen, Daoud, Larentia, Marcel, Enid, Burroughs, Alvina</td>
+</tr>
+<tr>
+<td>Seafood Salad</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">500</td>
+<td>Avo +3, Mag +1, Def -1</td>
+<td>Reese, Ward, Leon, Adel, Elbert, Christine, Dean, Izerna, Volo, Axel, Ruby, Arthur, Kramer, Faye, Derrick, Clifford, Aegina, Sherpa, Owen, Daoud, Larentia, Thaddy, Marcel, Enid, Alvina</td>
+</tr>
+<tr>
+<td>Steamed Clams</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">470</td>
+<td>Hit +3, Crit +2</td>
+<td>Reese, Ward, Leon, Adel, Sherlock, Elbert, Christine, Dean, Izerna, Volo, Axel, Sylvis, Ruby, Arthur, Czene, Kramer, Faye, Derrick, Clifford, Esteban, Aegina, Sherpa, Saphira, Owen, Larentia, Marcel, Burroughs</td>
+</tr>
+<tr>
+<td>Chicken Stew</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">450</td>
+<td>HP +1, Exp gain +30%</td>
+<td>Ward, Leon, Sherlock, Elbert, Dean, Arthur, Kramer, Clifford, Esteban, Aegina, Sherpa, Owen, Daoud, Marcel, Enid, Perceval, Burroughs, Alvina</td>
+</tr>
+<tr>
+<td>Butter Salmon</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">390</td>
+<td>Avo +5</td>
+<td>Reese, Ward, Leon, Adel, Sherlock, Elbert, Christine, Izerna, Volo, Axel, Sylvis, Ruby, Czene, Kramer, Faye, Derrick, Clifford, Esteban, Aegina, Sherpa, Saphira, Owen, Daoud, Larentia, Marcel, Perceval, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Salmon Meunière</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">420</td>
+<td>HP +3, Hit +3</td>
+<td>Ward, Leon, Adel, Sherlock, Elbert, Izerna, Volo, Axel, Czene, Kramer, Faye, Derrick, Clifford, Esteban, Aegina, Sherpa, Saphira, Owen, Daoud, Larentia, Thaddy, Enid, Perceval, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Pot-au-feu</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">460</td>
+<td>HP +5, Healing spells +10%</td>
+<td>Reese, Ward, Leon, Adel, Sherlock, Elbert, Christine, Volo, Axel, Sylvis, Arthur, Czene, Kramer, Faye, Derrick, Clifford, Faramir, Esteban, Sherpa, Owen, Daoud, Larentia, Marcel, Enid, Perceval, Burroughs, Paramythis</td>
+</tr>
+<tr>
+<td>Sinon Omelette</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">480</td>
+<td>HP +4, Sword/Axe/Spear/Shield skills +5</td>
+<td>Reese, Ward, Adel, Elbert, Dean, Izerna, Volo, Axel, Ruby, Arthur, Czene, Kramer, Faye, Faramir, Esteban, Sherpa, Owen, Larentia, Marcel, Enid, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Roast Flounder</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">490</td>
+<td>Hit +5</td>
+<td>Reese, Ward, Adel, Sherlock, Christine, Volo, Sylvis, Ruby, Arthur, Faramir, Esteban, Sherpa, Daoud, Larentia, Thaddy, Perceval, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Sautéed Chicken</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">350</td>
+<td>HP +2, Mag +1</td>
+<td>Ward, Leon, Adel, Sherlock, Christine, Izerna, Volo, Axel, Sylvis, Ruby, Kramer, Faye, Derrick, Clifford, Esteban, Sherpa, Saphira, Owen, Daoud, Larentia, Thaddy, Marcel, Enid, Burroughs, Alvina</td>
+</tr>
+<tr>
+<td>Narvia Salad</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">360</td>
+<td>Reduces damage taken by mount by 30%</td>
+<td>Leon, Elbert, Christine, Dean, Axel, Sylvis, Czene, Kramer, Faye, Derrick, Faramir, Esteban, Aegina, Owen, Daoud, Larentia, Thaddy, Enid, Perceval, Burroughs, Paramythis</td>
+</tr>
+<tr>
+<td>Bouillabaisse</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">450</td>
+<td>Avo +8, Def -1</td>
+<td>Leon, Sherlock, Elbert, Dean, Izerna, Axel, Ruby, Arthur, Czene, Derrick, Clifford, Sherpa, Saphira, Owen, Daoud, Larentia, Thaddy, Marcel, Enid, Perceval, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Boiled Crab</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">360</td>
+<td>Hit +5</td>
+<td>Ward, Izerna, Sylvis, Czene, Derrick, Faramir, Aegina, Owen, Thaddy, Marcel, Paramythis</td>
+</tr>
+<tr>
+<td>Meatloaf</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">500</td>
+<td>HP +5, enemy Cripple rate -25%</td>
+<td>Leon, Adel, Sherlock, Elbert, Christine, Volo, Axel, Sylvis, Ruby, Arthur, Czene, Kramer, Faramir, Aegina, Sherpa, Daoud, Thaddy, Enid, Perceval, Burroughs, Paramythis</td>
+</tr>
+<tr>
+<td>Minestrone</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">390</td>
+<td>HP +4</td>
+<td>Reese, Ward, Leon, Sherlock, Elbert, Dean, Volo, Sylvis, Arthur, Czene, Faye, Derrick, Esteban, Sherpa, Saphira, Daoud, Larentia, Thaddy, Enid, Perceval, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Wild Game Salad</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">500</td>
+<td>Mag +2</td>
+<td>Reese, Leon, Christine, Izerna, Axel, Sylvis, Ruby, Clifford, Faramir, Esteban, Aegina, Saphira, Larentia, Thaddy, Enid, Perceval, Burroughs, Alvina</td>
+</tr>
+<tr>
+<td>Roast Chicken</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">380</td>
+<td>HP +2, Crit +2</td>
+<td>Reese, Leon, Christine, Dean, Izerna, Sylvis, Czene, Faye, Derrick, Clifford, Esteban, Saphira, Owen, Larentia, Thaddy, Marcel, Enid, Burroughs, Paramythis</td>
+</tr>
+<tr>
+<td>Braised Chicken</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">480</td>
+<td>HP +1, Str +1</td>
+<td>Reese, Ward, Leon, Elbert, Christine, Izerna, Sylvis, Kramer, Clifford, Faramir, Esteban, Sherpa, Saphira, Owen, Daoud, Thaddy, Marcel, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Chicken Fricassée</td>
+<td style="text-align:center">C</td>
+<td style="text-align:center">400</td>
+<td>HP +4, HP recovered by magic +10%</td>
+<td>Reese, Ward, Leon, Adel, Elbert, Christine, Izerna, Volo, Axel, Sylvis, Ruby, Czene, Kramer, Faye, Derrick, Clifford, Faramir, Esteban, Sherpa, Saphira, Owen, Daoud, Larentia, Thaddy, Enid, Perceval, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Fried Mackerel</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">270</td>
+<td>Hit +2, Avo +2</td>
+<td>Reese, Leon, Sherlock, Elbert, Christine, Izerna, Volo, Ruby, Arthur, Faye, Derrick, Clifford, Faramir, Aegina, Saphira, Daoud, Larentia, Enid, Perceval, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Papillote 'Shrooms</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">180</td>
+<td>Mag +1</td>
+<td>Reese, Ward, Leon, Adel, Sherlock, Christine, Dean, Izerna, Volo, Ruby, Arthur, Clifford, Faramir, Esteban, Aegina, Saphira, Owen, Daoud, Thaddy, Marcel, Enid, Perceval, Burroughs</td>
+</tr>
+<tr>
+<td>Sinon Salad</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">210</td>
+<td>Heals horse for 20 HP</td>
+<td>Reese, Ward, Leon, Adel, Sherlock, Elbert, Dean, Izerna, Axel, Sylvis, Ruby, Arthur, Czene, Kramer, Faye, Derrick, Clifford, Faramir, Esteban, Aegina, Owen, Daoud, Larentia, Thaddy, Marcel, Enid, Perceval, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Beef Ribs</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">180</td>
+<td>HP +3</td>
+<td>Reese, Ward, Leon, Adel, Sherlock, Dean, Izerna, Volo, Sylvis, Ruby, Czene, Kramer, Derrick, Faramir, Aegina, Daoud, Thaddy, Marcel, Perceval, Burroughs, Paramythis</td>
+</tr>
+<tr>
+<td>Fried Rice</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">250</td>
+<td>HP +2, all magic weapon skills +5</td>
+<td>Reese, Leon, Adel, Sherlock, Elbert, Christine, Dean, Axel, Sylvis, Ruby, Arthur, Czene, Clifford, Faramir, Esteban, Aegina, Saphira, Daoud, Larentia, Thaddy, Enid, Perceval, Burroughs, Alvina</td>
+</tr>
+<tr>
+<td>Strawberries</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">160</td>
+<td>Crit Dodge +2, (for women, +1 Luck)</td>
+<td>Reese, Leon, Adel, Sherlock, Elbert, Christine, Volo, Ruby, Arthur, Kramer, Faye, Derrick, Clifford, Faramir, Esteban, Owen, Marcel, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Sautéed Pork</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">290</td>
+<td>HP +5</td>
+<td>Reese, Ward, Leon, Sherlock, Elbert, Dean, Sylvis, Arthur, Czene, Kramer, Faye, Derrick, Clifford, Faramir, Saphira, Thaddy, Marcel, Perceval, Paramythis</td>
+</tr>
+<tr>
+<td>Roast Chevon</td>
+<td style="text-align:center">D</td>
+<td style="text-align:center">220</td>
+<td>HP +4</td>
+<td>Reese, Adel, Sherlock, Dean, Volo, Axel, Ruby, Arthur, Esteban, Sherpa, Owen, Enid, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Squid Fritters</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">120</td>
+<td>HP +3, Avo +3, Def -1</td>
+<td>Reese, Ward, Leon, Adel, Elbert, Dean, Izerna, Volo, Axel, Sylvis, Arthur, Czene, Kramer, Derrick, Aegina, Sherpa, Saphira, Owen, Daoud, Thaddy, Marcel, Perceval, Burroughs</td>
+</tr>
+<tr>
+<td>Pumpkin Salad</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">100</td>
+<td>Heals horse for 10 HP</td>
+<td>Reese, Leon, Sherlock, Elbert, Christine, Izerna, Axel, Sylvis, Arthur, Czene, Kramer, Faye, Derrick, Faramir, Esteban, Aegina, Saphira, Larentia, Enid, Burroughs, Alvina, Paramythis</td>
+</tr>
+<tr>
+<td>Boiled Egg</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">50</td>
+<td>All weapon skills +1</td>
+<td>Reese, Ward, Adel, Sherlock, Elbert, Christine, Izerna, Axel, Sylvis, Ruby, Arthur, Czene, Kramer, Faye, Faramir, Aegina, Sherpa, Saphira, Owen, Larentia, Thaddy, Enid, Perceval</td>
+</tr>
+<tr>
+<td>Red Pepper</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">50</td>
+<td>Sleep and berserk recovery rate +30%</td>
+<td>Leon, Volo, Ruby, Czene, Kramer, Derrick, Faramir, Aegina, Sherpa, Owen, Daoud, Larentia, Marcel, Paramythis</td>
+</tr>
+<tr>
+<td>Deviled Egg</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">80</td>
+<td>HP +1, Bow/Crossbow skills +3</td>
+<td>Ward, Adel, Sherlock, Christine, Izerna, Ruby, Czene, Kramer, Aegina, Sherpa, Daoud, Larentia, Thaddy, Marcel, Paramythis</td>
+</tr>
+<tr>
+<td>Mutton Couscous</td>
+<td style="text-align:center">E</td>
+<td style="text-align:center">150</td>
+<td>HP +2</td>
+<td>Reese, Adel, Sherlock, Elbert, Dean, Axel, Ruby, Arthur, Czene, Kramer, Faye, Derrick, Sherpa, Saphira, Owen, Daoud, Larentia, Thaddy, Enid, Burroughs, Alvina, Paramythis</td>
+</tr>
+</tbody></table></div>
+</main>
+</body>
+</html>

@@ -1,0 +1,91 @@
+:root {
+  --bg: #faf8f3;
+  --surface: #ffffff;
+  --text: #2b2b2b;
+  --muted: #6b6257;
+  --accent: #8a5a2b;
+  --accent-soft: #f0e6d6;
+  --border: #e4dccd;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1a1815;
+    --surface: #232019;
+    --text: #e8e2d6;
+    --muted: #a89f8f;
+    --accent: #d9a066;
+    --accent-soft: #2e281f;
+    --border: #3a352b;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+}
+main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 1.25rem 1.1rem 4rem;
+}
+h1, h2, h3, h4 { line-height: 1.25; font-weight: 700; }
+h1 {
+  font-size: 1.75rem;
+  margin: 0.4em 0 0.6em;
+  color: var(--accent);
+}
+h2 {
+  font-size: 1.3rem;
+  margin: 1.8em 0 0.5em;
+  padding-bottom: 0.25em;
+  border-bottom: 2px solid var(--border);
+}
+h3 { font-size: 1.12rem; margin: 1.4em 0 0.4em; color: var(--muted); }
+p { margin: 0.7em 0; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul, ol { padding-left: 1.35em; margin: 0.6em 0; }
+li { margin: 0.28em 0; }
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  cursor: zoom-in;
+}
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.88em;
+  background: var(--accent-soft);
+  padding: 0.12em 0.38em;
+  border-radius: 5px;
+}
+hr { border: none; border-top: 1px solid var(--border); margin: 2em 0; }
+.table-wrap { overflow-x: auto; margin: 1em 0; -webkit-overflow-scrolling: touch; }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92rem;
+}
+th, td {
+  border: 1px solid var(--border);
+  padding: 0.4em 0.6em;
+  text-align: left;
+}
+th { background: var(--accent-soft); font-weight: 700; }
+tr:nth-child(even) td { background: color-mix(in srgb, var(--surface) 60%, var(--bg)); }
+/* back-to-menu link (first paragraph link) */
+main > p:first-of-type a { font-weight: 600; }
+@media (max-width: 480px) {
+  body { font-size: 16px; }
+  main { padding: 1rem 0.85rem 3rem; }
+  h1 { font-size: 1.5rem; }
+  th, td { padding: 0.35em 0.45em; }
+}

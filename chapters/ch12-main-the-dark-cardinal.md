@@ -1,0 +1,61 @@
+# Map 12-M — The Dark Cardinal
+
+[← Home](../index.md)
+
+## Map
+
+![Map 12-M — The Dark Cardinal](images/ch12-main-the-dark-cardinal.png)
+
+## Tactics Requirements
+
+- 1 Point: Clear the map.
+- 2 Points: Clear the map in 22 turns.
+- 3 Points: Protect all NPC Civilians.
+
+## Required Deployments for Sidequests
+
+Axel
+
+## Objective Checklist
+
+- Find Vester, and have him seize Castle Menas within 24 turns.
+- Secured all 3 tactics points by winning in 22 turns, and keeping all civilians alive
+- Completed Sidequest 1 by grabbing the Coemel Pearl out of the river with Axel
+- Completed Sidequest 2 by talking to the NPC in the bottom-right village with any unit
+- Possible Gallery Item: Dark Axe (kill one of the three castle guards)
+- Crafting Material: Sinon Steel (kill the reinforcement on Turn 16)
+- Crafting Material: Ancient Amulet (kill Almachus)
+
+## Notes on the Map
+
+For the first time since starting this playthrough, we finally have a tactics point that's somewhat difficult to secure. There are only two villages that Almachus' men did not search yet in their hunt for Vester, so he is hiding in one of these two locations. The local militia have armed themselves to protect Vester, but they're no match for the incoming Imperial armies. There are two villages on the map for us to protect - one in the top left and the other in the bottom right. Due to the way the map objectives are structured, we should go top-left first.
+
+The armor knight Vandal is blocking our way downhill, he is carrying the Amaterasu Shield - a Large Shield that not only gives impressive physical defense, but also provides 13 resistance to all elemental damage, making him quite bulky against both physical and magical damage. His Robust skill prevents captures, but you can still disarm the shield and steal it, or shatter it with a breaker weapon. If you lack these tools, you may find yourself spending a lot of time dealing with him - not ideal, since the villagers will be quickly slaughtered in your absence. You can also opt to bypass Vandal - heading all the way left from your starting high ground and accessing the top-left village by traversing down the cliffs, instead.
+
+Quick warning: If you intend to bypass Vandal and walk down the right side cliffs, beware of the forests. Three crossbows are hiding in Overwatch on the tiles right below the cliffs. If you trip into their range, they will shoot at you while you are standing on a cliff, guaranteeing massive damage. There are also lancers immediately downhill that will happily run at you if you get too close on that side. If you intend to split your army two ways to save both villages (which may be the ideal strategy to clear this map), make sure to assign your division properly - fast units, especially Alvina, should head left to reach the village ASAP, while anti-arrows and cavalry units can sit in the right for a brawl.
+
+The central piece of annoyance in this map are the four ballistae in the center islet. Surrounded by lakes on all but the far side, these four ballistae turns a significant portion of the map into a firing range. A flier can dive these ballistae and destroy them to relieve the pressure on you massively, but this squad is also being led by a man named Pentland, standing in the middle of the ring. Pentland is incapable of combat, and if Alvina reaches him, she can speak with him to convert Pentland and the ballistae to being allied units instead.
+
+While this is an alluring prospect, going for it in practice is hellish. Getting Alvina to Pentland requires you to wrap around the entire battlefield, and by the time you reach him, most of the ballistae that get converted won't even have enemies in range. This is much more of a trap than anything else. You can consider leaving the southern ballista alive and destroying the other three, since they won't be much help even if converted - don't worry, Pentland won't mind if you smash his stuff before switching sides to help us.
+
+When the ballistae are neutralized, send Axel into the water to look for the glowing search spot to fetch the Coemel Pearl, this will complete the first sidequest. Be warned - the water currents will wash the pearl downriver as the map goes on. The search spot will gradually shift toward the right as the map goes on. The pearl moves slowly enough that you are likely never in danger of losing it, but make sure to track its position and grab it before you forget.
+
+In the top-left village, clear out the enemies as fast as you can to save the civilians, and have Alvina speak to the local priest Scarro. This dialogue will give you the Holy Water key item, which you must now take to Vester to heal his wounds. If you've sent a second detachment to the bottom-right village already, start digging in and have Alvina run the second leg of her marathon to deliver the medicine. Vester's position will be revealed to you on Turn 3 - he will spawn on the map as an NPC in the bottom-right village awaiting delivery.
+
+The bottom-right village has an NPC villager than any of your units must talk with to complete the second sidequest. If you want, you can now besiege Castle Menas while Alvina is running over. The man holding the castle is Almachus, the **first of the four Razite Cardinals**. These four cardinals will serve as the four "final bosses" of our journey in *Berwick Saga*, and it is time for us to take down the first one.
+
+Despite his status as one of the cardinals, Almachus is far weaker than his colleagues. His biggest threat is the Berserk Orb in his inventory - this particular Berserk has a ridiculous 20 charges, and he will constantly barrage you from up to 5 tiles away. The construction of the castle also somewhat forces you to go single-file as you fight through the defenders pouring out, stalling your advance.
+
+Bring plenty of Pacify uses with a cleric or Sedatives to wipe off the Berserk as you push in. The first group of the castle guards coming out to fight you also has an armor knight that will drop a **Dark Axe** on death, the **Dark Axe is an item for Erzheimer's Collection**, but you may have already filled it by now. It is worth mentioning that out of the enemies coming out of Castle Menas to reinforce Almachus, Turns 9 and 16 will each have a Raze Priest that drops a Sedative, helping you with your anti-berserk supplies.
+
+Two Sedatives scattered so far apart from each other are hardly enough to counter Almachus' Berserk Orbs. What's more, if you've converted Pentland's ballistae, they love nothing more than to feast on the low-defense Raze Priests from range and in the process unintentionally taking the dropped Sedatives with them - and of course, stealing from allies are illegal, making them as good as lost.
+
+Berserk aside, Almachus isn't that scary. As soon as the castle gate opens, he's as good as dead. If you have a unit with 3+ range access like Sylvis, you can even shoot Almachus from over the wall, killing him long before opening the doors to him. Unfortunately, Burroughs cannot be used for this purpose, since he cannot make it in range of Almachus due to the way this map is designed.
+
+While you're clearing the castle, speak to Vester with Alvina and recruit him, we need to put him on the castle tile to seize it after dealing with Almachus, and speaking of...
+
+>**New Character: Vester -** Wait a minute, this one doesn't count. Vester is only playable for this map. But it is worth mentioning that for a guest recruit, he's quite strong! But by virtue of Alvina needing to do a cross-country run just to get to him, he probably doesn't get a lot of time to flex his muscles since we will have cleared ahead of him already.
+
+If you've done the map too fast, make sure to wait for a bit. One of the enemy reinforcements on Turn 16 will drop the crafting material Sinon Steel on death, so make sure to take it off him. Starting on Turn 18, enemy cavalry will be spawning in on the right side to threaten the village, but the map should be cleared by then, making them not as threatening as they seem.
+
+Have Vester reclaim his castle and free Bornia, and we're done!
